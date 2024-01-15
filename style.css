@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    font-family: 'Cooper Black';
+    background-color: #f2def1;
+    color: #2b0528;
+    text-align: center;
+    padding: 20px;
+  }
+  .featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .product {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product h2 {
+    font-family: 'Stencil';
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold; /* Add font-weight for emphasis */
+  }
+  
+  .product p {
+    font-family: 'Monotype Corsiva';
+
+    font-size: 1em;
+    color: #555;
+  }
+
+  .product .price {
+    font-family:'Century Schoolbook';
+    font-size: 1 em;
+    color: #180702; /* Price color is set to a shade of red */
+    margin-bottom: 10px; /* Add margin for separation */
+    padding: 8px 16px;
+}
+  
+  .product button {
+    font-family: Arial; /* Change font family for the button */
+    font-size: 1em;
+    color: #1d021b;
+    background-color: #f0b0f7;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product button:hover {
+    background-color: #2980b9; /* Change color on hover */
+  }
+  
+  .about, .contact {
+    background-color: #f2def1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about p {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .contact a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: #115de0;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #8b6387;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
